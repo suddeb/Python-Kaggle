@@ -14,3 +14,6 @@ print("Now I am outside if statement");
 viking_song = "Spam " * spam_amount
 print(viking_song)
 print(type(viking_song))
+
+print(5 / 2)
+print(5 // 2)
