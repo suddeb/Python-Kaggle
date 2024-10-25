@@ -29,6 +29,7 @@ greeting(who="Sudipta")
 greeting("James")
 
 #function accepting functions
+#higher-order functions
 def multiple(x):
     return 5 * x
 
