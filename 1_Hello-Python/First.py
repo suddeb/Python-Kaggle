@@ -17,3 +17,6 @@ print(type(viking_song))
 
 print(5 / 2)
 print(5 // 2)
+
+print(min(67,23, 120,12))
+print(max(67,23, 120,12))
