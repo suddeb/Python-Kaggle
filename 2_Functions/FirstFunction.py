@@ -41,3 +41,15 @@ def callMultipleTwice(func, x):
 
 print(callMultipleOnce(multiple,1))
 print(callMultipleTwice(multiple,1))
+
+#Another higher order function
+def max_5(x):
+    return x % 5;
+
+print(
+    "The max number without parameter",
+    max(100,2, 176),
+    "The max number with parameter",
+    max(100, 46, 23, key=max_5),
+    sep="\n"
+)
