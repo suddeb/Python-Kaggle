@@ -17,9 +17,9 @@ print(
 )
 
 help(leastDifferences)
-
 print(1,2,3,sep=' < ')
 
+#function accpeting parameters
 def greeting(who="Deb"):
     print("hello, ",who)
     
@@ -27,3 +27,16 @@ def greeting(who="Deb"):
 greeting()
 greeting(who="Sudipta")
 greeting("James")
+
+#function accepting functions
+def multiple(x):
+    return 5 * x
+
+def callMultipleOnce(func, x):
+    return func(x)
+
+def callMultipleTwice(func, x):
+    return func(func(x))
+
+print(callMultipleOnce(multiple,1))
+print(callMultipleTwice(multiple,1))
